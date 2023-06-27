@@ -185,17 +185,23 @@ a:focus-visible {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: start;
 	align-items: center;
+	overflow: hidden;
+	gap: 10vh;
 }
 
 .logo {
-	padding: 20vw;
+	padding-left: 20vw;
+	padding-right: 20vw;
+	padding-top: 10vh;
 	display: flex;
+
 }
 
 .picture {
-	padding: 10vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
 }
 
 .social {
