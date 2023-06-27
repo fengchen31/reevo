@@ -207,7 +207,7 @@ a:focus-visible {
 .grid__item-img {
 	background-size: cover;
 	background-position: 50% 50%;
-	height: 70vh;
+	width: 100vw;
 	aspect-ratio: 1.5;
 }
 
@@ -239,6 +239,13 @@ a:focus-visible {
 
 	.credits {
 		font-size: 1.4vw;
+	}
+
+	.grid__item-img {
+		background-size: cover;
+		background-position: 50% 50%;
+		height: 70vh;
+		aspect-ratio: 1.5;
 	}
 }
 
